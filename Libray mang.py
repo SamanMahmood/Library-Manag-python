@@ -10,8 +10,8 @@ class Library:
         print("5. Exit library.")
         print("Enter your choice using (1, 2, 3, 4, 5) :")
 
-    booklist = ["Rich Dad Poor Dad", "The Alchemist", "Atomic Habits",
-                "Abye hyat", "peery kamil", "namal", "peery kamil", "namal"]
+    booklist = ["Quran","Rich Dad Poor Dad", "The Alchemist", "Atomic Habits",
+                "Abye hyat", "peery kamil", "namal",  "namal"]
 
     def printBookList(self):
         for counter, book in enumerate(self.booklist):
